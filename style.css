@@ -9,14 +9,13 @@ body {
     background-image: url(donate-now/donation112.webp);
     background-repeat: no-repeat;
     background-size: 100%;
-
-
 }
 
 .tag-line {
     text-align: center;
     padding: 6%;
     color: hotpink;
+    margin-bottom: 5%;
 
 
 }
@@ -40,4 +39,105 @@ body {
 #font-size {
     font-size: 70px;
     line-height: 80px;
+}
+
+.donate-today {
+    margin-bottom: 20%;
+}
+
+
+.campaign {
+    text-align: center;
+    font-size: 20px;
+}
+
+.ash {
+    color: dimgray;
+    font-weight: 100;
+
+}
+
+.amount {
+    display: flex;
+    text-align: justify;
+    color: black;
+    font-weight: 600;
+
+}
+
+.solid {
+    box-shadow: 5px 1px 10px 2px wheat;
+    padding: 2%;
+
+    background-position: 5%;
+
+    width: 5%;
+    height: 50px;
+
+}
+
+span {
+    color: brown;
+}
+
+.donate-plan-tags {
+    text-align: center;
+    font-size: larger;
+
+}
+
+.donate-plan {
+    display: flex;
+
+}
+
+.box-one {
+    box-shadow: 7px 5px 10px gray;
+    border-left: 5px solid purple;
+    padding-left: 5%;
+    width: 50%;
+    padding-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    background-color: rgb(204, 179, 115);
+    border-radius: 10px;
+
+
+}
+
+.box-two {
+    box-shadow: 7px 5px 10px gray;
+    border-left: 5px solid rgb(15, 48, 18);
+    padding-left: 5%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    background-color: rgb(179, 139, 145);
+    border-radius: 10px;
+    padding-top: 2%;
+
+
+
+}
+
+.box-three {
+    box-shadow: 7px 5px 10px gray;
+    border-left: 5px solid blue;
+    padding-left: 5%;
+    padding-top: 2%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    background-color: rgb(94, 166, 168);
+    border-radius: 10px;
+
+
+
+
+
+
+
 }

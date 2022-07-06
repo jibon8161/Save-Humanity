@@ -1,5 +1,0 @@
-   <p id="one"></p>100tk</p>
-            <p id="two"></p>200tk</p>
-            <p id="three"></p>500tk</p>
-            <p id="four"></p>1000tk</p>
-            <p id="five"></p>5000tk</p>

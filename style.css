@@ -213,9 +213,15 @@ span {
 }
 
 .live-depends img {
-    width: 80%;
-    border-radius: 22px;
+    width: 96%;
+    border-radius: 15px;
+    height: 383px;
 
+}
+
+.how-to-contribute {
+    text-align: center;
+    font-size: large;
 }
 
 .survive {

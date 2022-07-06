@@ -11,12 +11,14 @@ body {
     background-size: 100%;
     margin-bottom: 10%;
     padding: auto;
+    height: 700px;
 }
+
 
 .tag-line {
     text-align: center;
     padding: 6%;
-    color: hotpink;
+    color: lightpink;
     margin-bottom: 5%;
 
 
@@ -58,7 +60,7 @@ body {
 }
 
 .donate-today {
-    margin-bottom: 20%;
+    margin-bottom: 9%;
 }
 
 
@@ -68,17 +70,27 @@ body {
     font-size: 20px;
 }
 
-.form {
-    padding: 50px;
-    margin-left: 40%;
-    border-bottom: 1px solid gray;
+.form input {
 
-    margin-top: 5%;
+    margin: 50px;
 
-
+    border-bottom: 1px solid darkgray;
+    text-align: center;
+    color: darkgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 20px;
+    width: 70%;
 
 
 }
+
+.form {
+
+    text-align: center;
+}
+
 
 .ash {
     color: dimgray;
@@ -98,12 +110,11 @@ body {
 
 .solid {
     box-shadow: 5px 5px 10px gray;
-    padding-left: 5%;
-    padding-top: 2%;
-    width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 2px;
+    padding-left: 6%;
+    padding-top: 5%;
+    width: 35%;
+    margin-right: 9%;
+    border-radius: 5px;
 
 
 
@@ -111,20 +122,20 @@ body {
 
 .solid1 {
     box-shadow: 5px 5px 10px gray;
-    border: 5px solid rgb(240, 206, 194);
+    border: 5px solid lightcoral;
     padding-left: 5%;
     padding-top: 5%;
     width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
+
+    margin-right: 9%;
     border-radius: 5px;
-    background-color: rgb(94, 166, 168);
+    background-color: lightcoral;
 
 
 }
 
 span {
-    color: brown;
+    color: black;
 
 
 }
@@ -138,8 +149,8 @@ span {
 
 .donate-plan {
     display: flex;
-    margin-bottom: 15%;
-    padding: auto;
+
+    padding: 23px;
 
 }
 
@@ -196,12 +207,82 @@ span {
     display: flex;
     margin-top: 10%;
     padding-left: 5%;
+    margin-bottom: 1%;
 
 
 }
 
 .live-depends img {
     width: 80%;
-    vertical-align: middle;
+    border-radius: 22px;
 
+}
+
+.survive {
+
+    display: flex;
+    margin-top: 10%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+
+}
+
+.survive img {
+    width: 95%;
+    height: 110%;
+    border-radius: 22px;
+
+}
+
+.updates {
+    text-align: center;
+    font-size: larger;
+
+
+
+}
+
+.email {
+    border: 5px solid #fdebd6;
+    background-color: #fdebd6;
+    padding: 61px;
+    border-radius: 19px;
+    height: 27px;
+    margin-left: 239px;
+    width: 716px;
+    margin-bottom: 100px;
+
+
+
+}
+
+.email input {
+    width: 500px;
+    height: 40px;
+    background-color: gainsboro;
+    border-radius: 12px;
+
+}
+
+.email button {
+    width: 200px;
+    height: 45px;
+    border-radius: 9px;
+    background-color: darksalmon;
+
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 35px;
+    padding-top: 23px;
+    line-height: 3px;
+
+}
+
+#color {
+    color: darkorange;
+    font-size: 41px;
 }

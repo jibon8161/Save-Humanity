@@ -9,6 +9,8 @@ body {
     background-image: url(donate-now/donation112.webp);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 10%;
+    padding: auto;
 }
 
 .tag-line {
@@ -26,7 +28,7 @@ body {
 }
 
 .button {
-    background-image: linear-gradient(pink, red);
+    background-image: linear-gradient(pink, DarkSalmon);
     text-decoration: solid;
     padding: 15px 30px;
     border-radius: 5px;
@@ -35,6 +37,20 @@ body {
     line-height: 70px;
     color: aliceblue;
 }
+
+.button3 {
+    background-image: linear-gradient(pink, DarkSalmon);
+    text-decoration: solid;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 70px;
+    color: aliceblue;
+    margin-left: 600px;
+
+}
+
 
 #font-size {
     font-size: 70px;
@@ -46,9 +62,22 @@ body {
 }
 
 
+
 .campaign {
     text-align: center;
     font-size: 20px;
+}
+
+.form {
+    padding: 50px;
+    margin-left: 40%;
+    border-bottom: 1px solid gray;
+
+    margin-top: 5%;
+
+
+
+
 }
 
 .ash {
@@ -59,41 +88,65 @@ body {
 
 .amount {
     display: flex;
-    text-align: justify;
-    color: black;
-    font-weight: 600;
+    text-align: left;
+    color: grey;
+    font-weight: 800;
+    padding-left: 5%;
+
 
 }
 
 .solid {
-    box-shadow: 5px 1px 10px 2px wheat;
-    padding: 2%;
+    box-shadow: 5px 5px 10px gray;
+    padding-left: 5%;
+    padding-top: 2%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 2px;
 
-    background-position: 5%;
 
-    width: 5%;
-    height: 50px;
+
+}
+
+.solid1 {
+    box-shadow: 5px 5px 10px gray;
+    border: 5px solid rgb(240, 206, 194);
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    background-color: rgb(94, 166, 168);
+
 
 }
 
 span {
     color: brown;
+
+
 }
 
 .donate-plan-tags {
     text-align: center;
     font-size: larger;
 
+
 }
 
 .donate-plan {
     display: flex;
+    margin-bottom: 15%;
+    padding: auto;
 
 }
 
 .box-one {
     box-shadow: 7px 5px 10px gray;
     border-left: 5px solid purple;
+    border-top: 5px solid purple;
     padding-left: 5%;
     width: 50%;
     padding-top: 2%;
@@ -108,7 +161,8 @@ span {
 
 .box-two {
     box-shadow: 7px 5px 10px gray;
-    border-left: 5px solid rgb(15, 48, 18);
+    border-left: 5px solid Magenta;
+    border-top: 5px solid Magenta;
     padding-left: 5%;
     width: 50%;
     margin-left: 5%;
@@ -124,7 +178,8 @@ span {
 
 .box-three {
     box-shadow: 7px 5px 10px gray;
-    border-left: 5px solid blue;
+    border-left: 5px solid DarkSalmon;
+    border-top: 5px solid DarkSalmon;
     padding-left: 5%;
     padding-top: 2%;
     width: 50%;
@@ -134,10 +189,19 @@ span {
     background-color: rgb(94, 166, 168);
     border-radius: 10px;
 
+}
+
+.live-depends {
+
+    display: flex;
+    margin-top: 10%;
+    padding-left: 5%;
 
 
+}
 
-
-
+.live-depends img {
+    width: 80%;
+    vertical-align: middle;
 
 }
